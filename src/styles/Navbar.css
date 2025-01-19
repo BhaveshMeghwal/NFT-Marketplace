@@ -1,0 +1,90 @@
+.navbar {
+    background: #141313;
+/* background: linear-gradient(90deg, rgba(40,38,77,1) 0%, rgba(121,9,9,1) 35%, rgba(93,46,101,1) 100%); */
+
+    padding: 20px;
+    color: white;
+    backdrop-filter: blur(10px); /* Applies the blur effect */
+  -webkit-backdrop-filter: blur(10px); /* For Safari */
+  z-index: 1000; /* Ensure navbar stays on top */
+  /* border-bottom: 1px solid rgba(182, 255, 46, 0.774); Optional: Adds a slight border for clarity */
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fafafa;
+    text-decoration: none;
+  }
+  
+  .navbar-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-item {
+    margin-left: 20px;
+  }
+  
+  .navbar-links {
+    color: rgb(185, 185, 185);
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-links:hover {
+    color: #ff6f61;
+  }
+  
+  .navbar-auth {
+    display: flex;
+  }
+  
+  button {
+    background-color: transparent;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    /* border: 1px solid; */
+    background: linear-gradient(90deg, hsla(301, 89%, 73%, 1) 0%, hsla(263, 100%, 41%, 1) 100%);
+    border-radius: 25px;
+    font-family: "Michroma", serif;
+  }
+  
+  button:hover {
+    background-color: #e94e3f;
+  }
+  
+
+  
+  /* .btn-grad {background-image: linear-gradient(to right, #616161 0%, #9bc5c3  51%, #616161  100%)}
+  .btn-grad {
+     margin: 10px;
+     padding: 15px 45px;
+     text-align: center;
+     text-transform: uppercase;
+     transition: 0.5s;
+     background-size: 200% auto;
+     color: white;            
+     box-shadow: 0 0 20px #eee;
+     border-radius: 10px;
+     display: block;
+   }
+
+   .btn-grad:hover {
+     background-position: right center;  
+     color: #fff;
+     text-decoration: none;
+   } */
+  
